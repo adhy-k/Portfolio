@@ -1,0 +1,5 @@
+day -1 : 06.02.2025
+
+learned : learned to create ssh key and to create a repo.
+
+challenge : was to locate the ssh key
