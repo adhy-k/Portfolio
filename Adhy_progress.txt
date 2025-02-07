@@ -3,3 +3,12 @@ day -1 : 06.02.2025
 learned : learned to create a new repo.
 
 challenge : was to locate the ssh key
+
+
+
+
+day -2 : 07.02.2025
+
+learned : learned about CSS frameworks
+
+challenge : was to implement CSS framework
