@@ -1,4 +1,4 @@
-
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,44 +9,60 @@ body {
     scroll-behavior: smooth;
 }
 
+/* Header - Navbar */
 header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(52, 58, 64, 0.9);
+    background-color: rgba(52, 58, 64, 0.9); /* Dark semi-transparent */
     color: white;
-    padding: 15px 0;
+    padding: 20px 0; /* Increased padding for more space */
     text-align: center;
     z-index: 1000;
 }
 
-header h1, header p {
-    margin: 5px 0;
+header h1 {
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 10px; /* Added space below the title */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block;
+    margin: 0 20px; /* Increased space between items */
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
-    transition: color 0.3s;
+    font-size: 20px; /* Increased font size */
+    padding: 12px 20px; /* Added padding for a larger clickable area */
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px; /* Soft rounded edges */
 }
 
 nav ul li a:hover {
-    color: #f39c12;
+    background-color: #f39c12;
+    color: white;
 }
 
+/* Full-Screen Sections */
 section {
     height: 100vh;
     display: flex;
@@ -56,6 +72,7 @@ section {
     padding: 20px;
 }
 
+/* Background Colors */
 #home {
     background: #343a40;
     color: white;
@@ -73,10 +90,11 @@ section {
     background: #e3e3e3;
 }
 
+/* Contact Section Styling */
 .contact-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px; /* Increased space between contact icons */
     margin-top: 20px;
 }
 
@@ -85,14 +103,17 @@ section {
     font-size: 20px;
     color: #333;
     background: white;
-    padding: 10px 15px;
-    border-radius: 8px;
+    padding: 12px 18px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
 }
 
 .contact-icons a i {
-    margin-right: 8px;
+    font-size: 24px;
 }
 
 .contact-icons a:hover {
@@ -100,10 +121,11 @@ section {
     color: white;
 }
 
+/* Footer */
 footer {
     background-color: #343a40;
     color: white;
-    padding: 10px;
+    padding: 15px;
     position: relative;
     bottom: 0;
     width: 100%;
