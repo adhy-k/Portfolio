@@ -12,3 +12,12 @@ day -2 : 07.02.2025
 learned : learned about CSS frameworks
 
 challenge : was to implement CSS framework
+
+
+day -3 : 08.02.2025
+
+learned : learned more about CSS
+
+implemented: diffrent css and made the portfolio more attractive
+
+challenge : was to implement CSS to diffrent elements where one change can effect other tags. 
