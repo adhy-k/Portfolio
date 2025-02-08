@@ -1,13 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
 
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
@@ -35,7 +33,6 @@ header {
     transition: padding 0.3s ease-in-out;
 }
 
-
 header h1 {
     font-size: 22px;
     font-weight: 600;
@@ -47,6 +44,9 @@ header p {
     opacity: 0.8;
 }
 
+header:hover {
+    padding: 5px 0;
+}
 
 
 nav ul {
