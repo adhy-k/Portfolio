@@ -21,3 +21,13 @@ learned : learned more about CSS
 implemented: diffrent css and made the portfolio more attractive
 
 challenge : was to implement CSS to diffrent elements where one change can effect other tags. 
+
+
+
+day -4 : 09.02.2025
+
+learned : learned to add image to header
+
+implemented: added my photo to header
+
+challenge : was to find the good image LOL!
